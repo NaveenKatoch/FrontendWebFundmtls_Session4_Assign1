@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speech Bubble</title>
+
+	<style type="text/css">
+
+		.rowblock{
+			margin-left: 40px;
+		}
+
+		.text{
+		 	margin-left: 55px;
+		}
+
+		p.speech {
+			position: relative;
+			width: 150px;
+			height: 100px;
+			padding: 0px;
+			background-color: #5AC4ED;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			margin-left: 50px;
+			margin-top: 20px;
+		}
+
+		p.speech:after {
+			content: "";
+			position: absolute;
+			top: 10px;
+			left: -37px;
+			border-style: solid;
+			border-width: 20px 59px 20px 0;
+			border-color: transparent #5AC4ED;
+			display: block;
+		}
+
+	</style>
+
+</head>
+<body>
+	<br><br><br>
+	<div class="rowblock">
+		<h2 class="text">Speech Bubble</h2>
+		<p class="speech"></p>
+	</div>
+</body>
+</html>
